@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+  }
+
+  .nav-flexbox{
+    display: flex;
+    background-color: aquamarine;
+    margin: 40px 12px 0px 12px;
+    justify-content: space-around;
+  }
+
+#home-buttons-container{
+    display: flex;
+}

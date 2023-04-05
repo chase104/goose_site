@@ -7,6 +7,14 @@ body{
     box-sizing: border-box;
 }
 
+.img-article-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .img-article-container span {
     display: inline-block;
     width: 50%;
@@ -15,9 +23,12 @@ body{
 nav {
     background-color: darkred;
     margin: 0px 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav a {
-    margin: 0px 7%;
     color: white;
     font-weight: bold;
 }
